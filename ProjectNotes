@@ -1,0 +1,13 @@
+Design choices made and trade-offs
+Multi-subscription Landing zone setup to simulate an ideal enterprise Azure environment
+Trade-off: Added complexity to the initial setup
+Split 
+Trade-off: 
+
+Problems I ran into, and how to troubleshoot them?
+Upgrading Azure membership to allow multi-subscription setup
+
+What did I learn from the project?
+The inner workings of Azure Tenant, Management Groups, and Subscriptions
+
+What would I change if this were supporting real production traffic?
