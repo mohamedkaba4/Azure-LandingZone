@@ -1,7 +1,6 @@
 # Mavencrest Azure Landing Zone
 
-Enterprise-style Azure platform foundation implemented with the
-Azure Landing Zones IaC Accelerator and Terraform.
+Enterprise deployment of an Azure platform foundation implemented with the Azure Landing Zones IaC Accelerator and Terraform that manages, secures, and networks workloads across workloads in the Azure environment.
 
 ## Scope
 
@@ -11,3 +10,4 @@ Azure Landing Zones IaC Accelerator and Terraform.
 - Platform and workload subscription organization
 - GitHub Actions with OIDC
 - Application landing-zone onboarding
+

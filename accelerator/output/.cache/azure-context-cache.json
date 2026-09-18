@@ -1,0 +1,272 @@
+{
+  "Regions": [
+    {
+      "label": "Australia Central (australiacentral)",
+      "value": "australiacentral"
+    },
+    {
+      "label": "Australia Central 2 (australiacentral2)",
+      "value": "australiacentral2"
+    },
+    {
+      "label": "Australia East (australiaeast) [AZ]",
+      "value": "australiaeast"
+    },
+    {
+      "label": "Australia Southeast (australiasoutheast)",
+      "value": "australiasoutheast"
+    },
+    {
+      "label": "Austria East (austriaeast) [AZ]",
+      "value": "austriaeast"
+    },
+    {
+      "label": "Belgium Central (belgiumcentral) [AZ]",
+      "value": "belgiumcentral"
+    },
+    {
+      "label": "Brazil South (brazilsouth) [AZ]",
+      "value": "brazilsouth"
+    },
+    {
+      "label": "Brazil Southeast (brazilsoutheast)",
+      "value": "brazilsoutheast"
+    },
+    {
+      "label": "Canada Central (canadacentral) [AZ]",
+      "value": "canadacentral"
+    },
+    {
+      "label": "Canada East (canadaeast)",
+      "value": "canadaeast"
+    },
+    {
+      "label": "Central India (centralindia) [AZ]",
+      "value": "centralindia"
+    },
+    {
+      "label": "Central US (centralus) [AZ]",
+      "value": "centralus"
+    },
+    {
+      "label": "Central US EUAP (centraluseuap)",
+      "value": "centraluseuap"
+    },
+    {
+      "label": "Chile Central (chilecentral) [AZ]",
+      "value": "chilecentral"
+    },
+    {
+      "label": "Denmark East (denmarkeast) [AZ]",
+      "value": "denmarkeast"
+    },
+    {
+      "label": "East Asia (eastasia) [AZ]",
+      "value": "eastasia"
+    },
+    {
+      "label": "East US (eastus) [AZ]",
+      "value": "eastus"
+    },
+    {
+      "label": "East US 2 (eastus2) [AZ]",
+      "value": "eastus2"
+    },
+    {
+      "label": "East US 2 EUAP (eastus2euap) [AZ]",
+      "value": "eastus2euap"
+    },
+    {
+      "label": "East US STG (eastusstg)",
+      "value": "eastusstg"
+    },
+    {
+      "label": "France Central (francecentral) [AZ]",
+      "value": "francecentral"
+    },
+    {
+      "label": "France South (francesouth)",
+      "value": "francesouth"
+    },
+    {
+      "label": "Germany North (germanynorth)",
+      "value": "germanynorth"
+    },
+    {
+      "label": "Germany West Central (germanywestcentral) [AZ]",
+      "value": "germanywestcentral"
+    },
+    {
+      "label": "India South Central (indiasouthcentral) [AZ]",
+      "value": "indiasouthcentral"
+    },
+    {
+      "label": "Indonesia Central (indonesiacentral) [AZ]",
+      "value": "indonesiacentral"
+    },
+    {
+      "label": "Israel Central (israelcentral) [AZ]",
+      "value": "israelcentral"
+    },
+    {
+      "label": "Italy North (italynorth) [AZ]",
+      "value": "italynorth"
+    },
+    {
+      "label": "Japan East (japaneast) [AZ]",
+      "value": "japaneast"
+    },
+    {
+      "label": "Japan West (japanwest) [AZ]",
+      "value": "japanwest"
+    },
+    {
+      "label": "Jio India Central (jioindiacentral)",
+      "value": "jioindiacentral"
+    },
+    {
+      "label": "Jio India West (jioindiawest)",
+      "value": "jioindiawest"
+    },
+    {
+      "label": "Korea Central (koreacentral) [AZ]",
+      "value": "koreacentral"
+    },
+    {
+      "label": "Korea South (koreasouth)",
+      "value": "koreasouth"
+    },
+    {
+      "label": "Malaysia West (malaysiawest) [AZ]",
+      "value": "malaysiawest"
+    },
+    {
+      "label": "Mexico Central (mexicocentral) [AZ]",
+      "value": "mexicocentral"
+    },
+    {
+      "label": "New Zealand North (newzealandnorth) [AZ]",
+      "value": "newzealandnorth"
+    },
+    {
+      "label": "North Central US (northcentralus)",
+      "value": "northcentralus"
+    },
+    {
+      "label": "North Europe (northeurope) [AZ]",
+      "value": "northeurope"
+    },
+    {
+      "label": "Norway East (norwayeast) [AZ]",
+      "value": "norwayeast"
+    },
+    {
+      "label": "Norway West (norwaywest)",
+      "value": "norwaywest"
+    },
+    {
+      "label": "Poland Central (polandcentral) [AZ]",
+      "value": "polandcentral"
+    },
+    {
+      "label": "Qatar Central (qatarcentral) [AZ]",
+      "value": "qatarcentral"
+    },
+    {
+      "label": "South Africa North (southafricanorth) [AZ]",
+      "value": "southafricanorth"
+    },
+    {
+      "label": "South Africa West (southafricawest)",
+      "value": "southafricawest"
+    },
+    {
+      "label": "South Central US (southcentralus) [AZ]",
+      "value": "southcentralus"
+    },
+    {
+      "label": "South Central US STG (southcentralusstg)",
+      "value": "southcentralusstg"
+    },
+    {
+      "label": "South India (southindia)",
+      "value": "southindia"
+    },
+    {
+      "label": "Southeast Asia (southeastasia) [AZ]",
+      "value": "southeastasia"
+    },
+    {
+      "label": "Spain Central (spaincentral) [AZ]",
+      "value": "spaincentral"
+    },
+    {
+      "label": "Sweden Central (swedencentral) [AZ]",
+      "value": "swedencentral"
+    },
+    {
+      "label": "Switzerland North (switzerlandnorth) [AZ]",
+      "value": "switzerlandnorth"
+    },
+    {
+      "label": "Switzerland West (switzerlandwest)",
+      "value": "switzerlandwest"
+    },
+    {
+      "label": "UAE Central (uaecentral)",
+      "value": "uaecentral"
+    },
+    {
+      "label": "UAE North (uaenorth) [AZ]",
+      "value": "uaenorth"
+    },
+    {
+      "label": "UK South (uksouth) [AZ]",
+      "value": "uksouth"
+    },
+    {
+      "label": "UK West (ukwest)",
+      "value": "ukwest"
+    },
+    {
+      "label": "West Central US (westcentralus)",
+      "value": "westcentralus"
+    },
+    {
+      "label": "West Europe (westeurope) [AZ]",
+      "value": "westeurope"
+    },
+    {
+      "label": "West India (westindia)",
+      "value": "westindia"
+    },
+    {
+      "label": "West US (westus)",
+      "value": "westus"
+    },
+    {
+      "label": "West US 2 (westus2) [AZ]",
+      "value": "westus2"
+    },
+    {
+      "label": "West US 3 (westus3) [AZ]",
+      "value": "westus3"
+    }
+  ],
+  "Subscriptions": [
+    {
+      "label": "Azure subscription 1 (a089fc0b-c043-462d-93f4-ffd996224d30)",
+      "value": "a089fc0b-c043-462d-93f4-ffd996224d30"
+    }
+  ],
+  "ManagementGroups": [
+    {
+      "label": "Tenant Root Group (32236432-53a4-43df-85e3-53d26b9c8519)",
+      "value": "32236432-53a4-43df-85e3-53d26b9c8519"
+    },
+    {
+      "label": "Mavencrest (mg-mavencrest)",
+      "value": "mg-mavencrest"
+    }
+  ]
+}
