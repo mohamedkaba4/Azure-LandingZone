@@ -1,5 +1,7 @@
 # Terraform local/generated files
 **/.terraform/
+accelerator/output/.tools/
+accelerator/output/.cache/
 *.tfstate
 *.tfstate.*
 *.tfplan
