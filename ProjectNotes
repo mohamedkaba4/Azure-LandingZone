@@ -1,13 +1,45 @@
-Design choices made and trade-offs
+Design choices made and their trade-offs
 Multi-subscription Landing zone setup to simulate an ideal enterprise Azure environment
 Trade-off: Added complexity to the initial setup
-Split 
+Management group hierarchy to provide centralized policy inheritance and governance across subscriptions.
+Trade-off: 
+Hub-and-Spoke Networking - A shared hub Virtual Network (VNet) in the Connectivity subscription provides the foundation for future workload spokes.
+Trade-off: 
+Cost-Controlled Design - Expensive services such as Azure Firewall, Virtual Private Network (VPN) Gateway, Bastion, DDoS Network Protection, Private DNS Resolver, and paid Microsoft Defender for Cloud plans were disabled for the lab.
+Trade-off: 
+Infrastructure as Code - Terraform manages the platform, while Azure DevOps provides Pull Request validation, planning, approvals, and deployment.
+Trade-off: 
+Monitoring - The Management subscription provides centralized monitoring using Log Analytics, Azure Monitor Data Collection Rules, managed identity, and Service Health alerts.
+Trade-off: 
+Security and Governance - Azure Policy and management-group inheritance provide centralized governance. The platform can be extended with Microsoft Defender for Cloud, Role-Based Access Control (RBAC), diagnostic settings, and centralized security monitoring.
 Trade-off: 
 
 Problems I ran into, and how to troubleshoot them?
-Upgrading Azure membership to allow multi-subscription setup
+Upgrading Azure membership to allow multi-subscription setup. Waiting for a time window that blocks new Subscription creation
+Working in the wrong directory after the bootstrapping phase. DevOps pipeline kept displaying the same output even after making changes to the platform tfvars file.
 
 What did I learn from the project?
-The inner workings of Azure Tenant, Management Groups, and Subscriptions
+The inner workings of Azure tenants, Management Groups, and Subscriptions
+Deploy Landing with ALZ Accelerator
+Deeper understanding of Terraform provisioning
+Understanding and working with Azure DevOps tools, repos, and pipelines.
+Cloud cost optimization
+Deeper understanding of pull Request-based change control
 
 What would I change if this were supporting real production traffic?
+I would add some of the features that were disabled to avoid incurring high costs like:
+Azure Firewall for centralized network security
+Private DNS and DNS Resolver
+DDoS Network Protection
+Production Microsoft Defender for Cloud plans
+Dedicated Identity and Security services
+Centralized Security Information and Event Management (SIEM)
+Add multi-region disaster recovery to current DR setup
+More granular policy and compliance enforcement
+Automate workload landing-zone deployments like the platform
+
+
+
+
+
+
