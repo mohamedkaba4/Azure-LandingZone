@@ -30,7 +30,7 @@ It has a shared platform layer for management groups, policies, monitoring, secu
 Terraform state is centrally stored in Azure Storage, with separate state files for the platform and workload environments. Azure Policy is actively enforcing standards, and CI/CD is being set up with separate plan and apply identities using workload identity federation and least-privilege RBAC.
 
 ## Architecture
-
+![Mavencrest Azure Landing Zone Architecture](./assets/azure-landing-zone-architecture.png)
 ```text
 Microsoft Entra ID Tenant
 │
