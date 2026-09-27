@@ -38,6 +38,9 @@ Add multi-region disaster recovery to current DR setup
 More granular policy and compliance enforcement
 Automate workload landing-zone deployments like the platform
 
+*************
+implementing site reliability dashboard
+Refactoring alz-workload-prod so it is a reusable model for other projects/deployments in workload platform.
 
 
 
