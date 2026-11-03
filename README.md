@@ -41,7 +41,8 @@ Microsoft Entra ID Tenant
         ├── Platform (centralized foundation)
         │   │
         │   ├── Connectivity
-        │   │   └── sub-mavencrest-connectivity
+        │   │   └── connectivity subscription
+        |   |    └── connectivity resource group
         │   │       └── Hub Virtual Network
         │   │
         │   ├── Management
@@ -58,6 +59,9 @@ Microsoft Entra ID Tenant
         ├── Landing Zones (application and workload resources)
         │   ├── Corp
         │   ├── Online
+        |   │   └── Workload Subscription
+        │   |    └── resource group
+        |   │           └── spoke vnet
         │   └── Local
         │
         ├── Sandbox (isolated for experiments and testing)
